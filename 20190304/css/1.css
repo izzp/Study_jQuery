@@ -1,0 +1,12 @@
+table, th, td
+  {
+  border: 1px solid pink;
+  }
+ table
+  {
+  width:500px;
+  }
+th
+  {
+  height:50px;
+  }
