@@ -1,0 +1,64 @@
+form.form1{
+	width:800px;
+	margin:0 auto;
+}
+fieldset{
+	border:1px green solid;
+	padding-left:20px;
+}
+#msg{
+
+	margin-top: 10px;
+}
+span.bigger,span.smaller{
+	border:1px solid green;
+	padding:2px;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+input{
+	margin:6px;
+}
+select{
+	margin:10px 40px;
+	width:120px;
+	height:220px;
+	font-size:16px;
+}
+div.select{
+	position:relative;
+	
+}
+div.spans_add span,div.spans_remove span{
+	border:1px solid green;
+	width:30px;
+	line-height:25px;
+	border-radius: 6px;
+	display:inline-block;
+	margin-bottom:10px;
+	cursor:pointer;
+
+}
+div.spans_remove,div.spans_add{
+	position:absolute;
+	left:180px;
+	
+}
+div.spans_remove{
+	bottom:40px;
+
+}
+div.spans_add{
+	bottom:120px;
+}
+.focus{
+	border:1px solid #f00;
+	background:#fcc;
+}
+span.formtips{
+
+}
+.onError{
+	color:red;
+}

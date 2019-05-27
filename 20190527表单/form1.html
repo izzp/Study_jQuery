@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+	<link  href="css/form1.css"  rel="stylesheet">
+	<script  src="js/jquery-3.3.1.js"></script>
+	<script   src="js/form1.js"></script> 
+</head>
+<body>
+<body>
+<form action="" class="form1" id="regFrom">
+<fieldset>
+<legend>个人信息</legend>
+	<div class="int">
+		<label for="username">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</label>
+		<input type="text" id='username' class='required' value=''><br/>
+	</div>
+	<div class="int">
+		<label for="pass">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+		<input type="password" id='pass' class='required'><br/>
+	</div>
+	<div class="int">	
+		<label for="email">电子邮箱：</label>
+		<input type="text" id='email' class='required'><br/>
+	</div>
+	<label for="msg">个人简介：</label>	
+	<span class="bigger">+</span>
+	<span class="smaller">-</span>
+	<textarea name="" id="msg" cols="100" rows="10"></textarea><br/>
+	你爱好的运动？<input type="checkbox" id="checkAll">全选/全不选<br/>
+	<input type="checkbox" name="items" value="足球">足球
+	<input type="checkbox" name="items" value="篮球">篮球
+	<input type="checkbox" name="items" value="羽毛球">羽毛球
+	<input type="checkbox" name="items" value="乒乓球">乒乓球<br/>
+	
+	<div class='select'>所选课程<br/>
+	<select name="select1" id="select1" multiple>
+	<option value="1">Linux</option>
+	<option value="1">c#</option>
+	<option value="1">java</option>
+	<option value="1">c语言</option>
+	<option value="1">汇编语言</option>
+	<option value="1">jquery</option>
+	<option value="1">photoshop</option>
+	<option value="1">电子商务</option>
+	<option value="1">软件测试</option>
+	<option value="1">xml</option>
+	</select>
+	<div class="spans_add">
+	<span id="add">></span><br/>
+	<span id="add_all">>></span>
+	</div>
+	<select name="select2"  multiple id="select2">
+	</select>
+	<div class="spans_remove">
+	<span id="remove"><</span><br/>
+	<span id="remove_all"><<</span>
+	</div>
+	</div>
+</fieldset>
+<input type="submit" id="send" value="提交" />
+<input type="reset" id="send">
+https://www.runoob.com/jsref/jsref-obj-regexp.html
+</form>	
+</body>
+</body>
+</html>
